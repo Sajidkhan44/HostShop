@@ -1,0 +1,42 @@
+body {
+height: 100vh;
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url("https://source.unsplash.com/random");
+background-size: cover;
+background-position: center;
+
+text-shadow: 0 0.2rem 0.1rem rgba(0,0,0,0.5);
+
+}
+.cover-container{
+    max-width: 60vw;
+}
+.nav-link{
+    padding: 0.25rem 0;
+    font-weight:700;
+    color:rgba(255,255,255,0.5);
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+}
+.nav-link:hover{
+    border-bottom-color:seagreen;
+    color: aqua;
+}
+.nav-link.active{
+    color: white;
+    border-bottom-color: white;
+}
+.btn-secondary{
+    color: black;
+    text-shadow: none;
+    border-bottom: 0.25rem solid transparent;
+}
+.btn-secondary:hover  {
+    
+      text-shadow: none;
+      background-color: aqua;
+    border-bottom-color:seagreen;
+    
+  
+}
+
