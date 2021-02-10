@@ -1,3 +1,7 @@
+////////----middleware---------------///
+
+
+
 const isLoggedIn = (req,res,next) =>{
     if(!req.isAuthenticated()){
         req.session.returnTo = req.originalUrl

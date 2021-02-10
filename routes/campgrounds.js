@@ -1,3 +1,6 @@
+//////////////////////------routes--campgrounds.js----//////////////////////////////
+
+
 const express = require('express')
 const router = express.Router();
 const { campgroundSchema } = require('../schemas.js');
